@@ -11,6 +11,9 @@ var car = {
 		],
 		turnOn: function(){
 			this.isTurnOn = "True";
+		},
+		fly : function(){
+			alert("car cant not fly dude");
 		}
 	};
 	var lady ={
@@ -21,9 +24,9 @@ var car = {
 		letsFuckHer: function(doIt){
 			console.log("Should we do her? - " + doIt);
 			if(doIt == "yes"){
-				this.status= "not virgin";
+				this.status = "not virgin";
 			}else{
-				this.status= "she is still virgin";
+				this.status = "she is still virgin";
 			}
 		}
 	}
