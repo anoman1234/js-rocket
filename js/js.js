@@ -23,7 +23,7 @@ var car = {
 			if(doIt == "yes"){
 				this.status= "not virgin";
 			}else{
-				this.status "she is still virgin";
+				this.status= "she is still virgin";
 			}
 		}
 	}
