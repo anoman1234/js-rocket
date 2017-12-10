@@ -1,3 +1,18 @@
+
+var coolColorId = function(){
+	var storeClassName = document.getElementById("cool").className;
+
+	if (storeClassName == "cool") {
+		document.getElementById("cool").className = 'cool red';
+	}else{
+		document.getElementById("cool").className = 'cool';
+	}
+}
+
+var sayMyName = function(name){
+	alert ("My name is " + name);
+}
+
 var car = {
 		make: "Honda",
 		origin: "Japan",
@@ -16,7 +31,7 @@ var car = {
 			alert("car cant not fly dude");
 		}
 	};
-	var lady ={
+	var lady = {
 		genere: "busty",
 		age: "24",
 		hair: "black",
