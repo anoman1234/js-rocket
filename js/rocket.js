@@ -14,5 +14,7 @@ var changeState = function(state){
 			}
 		}, 1000);
 
+	}else if(state == 3){
+		document.
 	}
 }
