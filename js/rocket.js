@@ -12,9 +12,16 @@ var changeState = function(state){
 			if (changeNumber < 0) {
 				changeState(3);
 			}
-		}, 1000);
-
+		}, 500);
 	}else if(state == 3){
-	
+		var randomNumber = setInterval(function(){
+			var randomNumberHolder = Math.round(Math.random()*10);
+			console.log(randomNumberHolder);
+			if(randomNumberHolder > 5){
+				changeState(4);
+			}else{
+				changeState(5);
+			}
+		}, 2000);
 	}
 }
